@@ -1,0 +1,42 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python 387",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "train.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--conf",
+                "confs/hfavatar-zju/ZJUMOCAP-387-mono-4gpus.conf" ,
+                "--base_exp_dir",
+                "exp/hfavatar-zju",
+                "--run_name",
+                "test"
+            ],
+            "cwd":"/root/humanSDF/HF-Avatar", 
+            "justMyCode": true
+        },
+        {
+            "name": "Python 377",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "train.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--conf",
+                "confs/hfavatar-zju/ZJUMOCAP-377-mono-4gpus.conf" ,
+                "--base_exp_dir",
+                "exp/hfavatar-zju/test_cnlmask",
+                "--run_name",
+                "test_cnlmask"
+            ],
+            "cwd":"/root/humanSDF/HF-Avatar", 
+            "justMyCode": true
+        }
+    ]
+}  

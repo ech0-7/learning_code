@@ -1,0 +1,12 @@
+67c67
+<         "use_init_sdf": false,
+---
+>         "use_init_sdf": true,
+305c305
+<       "start_time": 1701793556,
+---
+>       "start_time": 1701793697,
+370c370
+<       "base_exp_dir": "exp/CoreView_377_1701793453_slurm_w/o_inner-w/o_init_sdf"
+---
+>       "base_exp_dir": "exp/CoreView_377_1701793597_slurm_w/o_inner-w/_init_sdf"
